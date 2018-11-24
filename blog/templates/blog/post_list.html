@@ -7,16 +7,20 @@
             <h1><a href="/">Blog da Vivi no Django Girls</a></h1>
         </div>
 
+{% for post in posts %}
+
         <div>
             <p>publicado: 14.06.2014, 12:14</p>
-            <h2><a href="">Primeiro dia</a></h2>
+            <h2><a href="">{{ Primeiro dia }}</a></h2>
             <p>Ter que pedir que sua irmã mais nova a ameace com um balde de água na cara para conseguir levantar da cama as 5:30hs num dia chuvoso... Foi assim que começou meu primeiro dia no mundo da programação.</p>
         </div>
 
         <div>
             <p>publicado: 14.06.2014, 12:14</p>
-            <h2><a href="">Comidinhas</a></h2>
+            <h2><a href="">{{ Comidinhas }}</a></h2>
             <p>Sem dúvidas eu achei que fosse ter problemas para encontrar um local para comer nos arredores do escritório usado para a atividade da Django Girls mas para a minha surpresa, uma nutricionista ma-ra-vi-lho-sa foi chamada para nos suprir com as forças necessárias para a batalha intensa com o mundo da programação. É graças a el que estou aqui tendo a felicidade de compartilhar momentos desse meu primeiro dia de guerra (Infelimente tive a demência de não perguntar por seu nome, sim, eu sou assim demente ¬¬).</p>
         </div>
+        
+{% endfor %}
     </body>
 </html>
