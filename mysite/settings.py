@@ -25,7 +25,7 @@ SECRET_KEY = 't-ol$!f35*c9l$i!80tqn$k)eh@4=+1bu9^ops+s43+p=yd$@q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'gallindo.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'gallindo.pythonanywhere.com']
 
 
 # Application definition
